@@ -3,33 +3,29 @@ public class Main {
         // Задача 1
         System.out.println("Задача 1");
         byte cat = 40;
-        System.out.println(cat);
+        System.out.println("Значение переменной cat с типом byte равно " + cat);
         short b = 200;
-        System.out.println(b);
-        int c = 500;
-        System.out.println(c);
-        long d = 564789;
-        System.out.println(d);
-        float e = 2.2f;
-        System.out.println(e);
+        System.out.println("Значение переменной b с типом short равно " + b);
+        int cream = 500;
+        System.out.println("Значение переменной cream с типом int равно " + cream);
+        long people = 564789123L;
+        System.out.println("Значение переменной people с типом long равно " + people);
+        float home = 2.2f;
+        System.out.println("Значение переменной home с типом byte равно " + home);
         double i = 7.8;
-        System.out.println(i);
-        boolean car = cat <= b;
-        System.out.println(cat);
-        char bar = 35;
-        System.out.println(bar);
+        System.out.println("Значение переменной i с типом double равно " + i);
+
 
         // Задача 2
         System.out.println("Задача 2");
-        double x = 27.12;
-        long y = 987678965;
-        byte v = 2;
-        int f = 786;
-        boolean a = 30 < 5;
-        int apple = 569;
-        int temp = -159;
+        float x = 27.12F;
+        long y = 987_678_965_549L;
+        double v = 2.786;
+        boolean a = false;
+        char apple = 569;
+        short temp = -159;
         int gramm = 27897;
-        double app = 67.0;
+        byte app = 67;
 
         // Задача 3
         System.out.println("Задача 3");
@@ -42,12 +38,17 @@ public class Main {
 
         // Задача 4
         System.out.println("Задача 4");
-        int bottle = 16;
+        int bottlse = 16;
         int time2 = 2;
         int time20 = 20;
-        int totalBottle1 = bottle / time2;
-        int totalBottle2 = totalBottle1 * time20;
-        System.out.println("За " + time20 + " минут машина произвела бутылок " + totalBottle2 + " штук");
+        int BottlseOneMinutes = bottlse / time2;
+        System.out.println("За " + time20 + " минут машина произвела бутылок " + BottlseOneMinutes * time20 + " штук");
+        int minutesInDay = 60 * 24;
+        System.out.println("За " + minutesInDay + " минут машина произвела бутылок " + BottlseOneMinutes * minutesInDay + " штук");
+        int minutesInThreeDays = minutesInDay * 3;
+        System.out.println("За " + minutesInThreeDays + " минут машина произвела бутылок " + BottlseOneMinutes * minutesInThreeDays + " штук");
+        int minutesInMonth = minutesInDay * 30;
+        System.out.println("За " + minutesInMonth + " минут машина произвела бутылок " + BottlseOneMinutes * minutesInMonth + " штук");
 
         // Задача 5
         System.out.println("Задача 5");
