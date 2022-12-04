@@ -3,33 +3,29 @@ public class Main {
         // Задача 1
         System.out.println("Задача 1");
         byte cat = 40;
-        System.out.println(cat);
+        System.out.println("Значение переменной cat с типом byte равно " + cat);
         short b = 200;
-        System.out.println(b);
-        int c = 500;
-        System.out.println(c);
-        long d = 564789;
-        System.out.println(d);
-        float e = 2.2f;
-        System.out.println(e);
+        System.out.println("Значение переменной b с типом short равно " + b);
+        int cream = 500;
+        System.out.println("Значение переменной cream с типом int равно " + cream);
+        long people = 564789123L;
+        System.out.println("Значение переменной people с типом long равно " + people);
+        float home = 2.2f;
+        System.out.println("Значение переменной home с типом byte равно " + home);
         double i = 7.8;
-        System.out.println(i);
-        boolean catIsAdult = cat < b;
-        System.out.println(cat);
-        char bar = 35;
-        System.out.println(bar);
+        System.out.println("Значение переменной i с типом double равно " + i);
+
 
         // Задача 2
         System.out.println("Задача 2");
-        double x = 27.12;
-        long y = 987678965;
-        byte v = 2;
-        int f = 786;
-        boolean isAdult = f >= x;
-        int apple = 569;
-        int temperature = -159;
-        int weight = 27897;
-        double apple2 = 67.0;
+        float x = 27.12F;
+        long y = 987_678_965_549L;
+        double v = 2.786;
+        boolean a = false;
+        char apple = 569;
+        short temp = -159;
+        int gramm = 27897;
+        byte app = 67;
 
         // Задача 3
         System.out.println("Задача 3");
@@ -42,12 +38,17 @@ public class Main {
 
         // Задача 4
         System.out.println("Задача 4");
-        int bottle = 16;
+        int bottlse = 16;
         int time2 = 2;
         int time20 = 20;
-        int totalBottle1 = bottle / time2;
-        int totalBottle2 = totalBottle1 * time20;
-        System.out.println("За " + time20 + " минут машина произвела бутылок " + totalBottle2 + " штук");
+        int BottlseOneMinutes = bottlse / time2;
+        System.out.println("За " + time20 + " минут машина произвела бутылок " + BottlseOneMinutes * time20 + " штук");
+        int minutesInDay = 60 * 24;
+        System.out.println("За " + minutesInDay + " минут машина произвела бутылок " + BottlseOneMinutes * minutesInDay + " штук");
+        int minutesInThreeDays = minutesInDay * 3;
+        System.out.println("За " + minutesInThreeDays + " минут машина произвела бутылок " + BottlseOneMinutes * minutesInThreeDays + " штук");
+        int minutesInMonth = minutesInDay * 30;
+        System.out.println("За " + minutesInMonth + " минут машина произвела бутылок " + BottlseOneMinutes * minutesInMonth + " штук");
 
         // Задача 5
         System.out.println("Задача 5");
@@ -57,15 +58,45 @@ public class Main {
         int totalClass = paint / (white + brown);
         System.out.println("В школе, где " + totalClass + " классов, нужно " + totalClass * white + " банок белой краски и " + totalClass * brown + " банок коричневой краски");
 
-
         // Задача 6
         System.out.println("Задача 6");
+        int banana = 5 * 80;
+        int milk = 2 * 105;
+        int iceCream = 2 * 100;
+        int egg = 4 * 70;
+        int totalWeight = banana + milk + iceCream + egg;
+        System.out.println("Вес спорт-завтрака " + totalWeight + " грамм, или " + totalWeight * .001 + " кг.");
 
         // Задача 7
         System.out.println("Задача 7");
+        float weightSportsman = 7 * 1000;
+        int weight1 = 250;
+        int weight2 = 500;
+        int averageWeight = (weight1 + weight2) / 2;
+        System.out.println("Если терять каждый день по " + weight1 + " грамм, то потребуется " + weightSportsman / weight1 + " дней");
+        System.out.println("Если терять каждый день по " + weight2 + " грамм, то потребуется " + weightSportsman / weight2 + " дней");
+        System.out.println("Если терять в день по " + averageWeight + " грамм в среднем, то потребуется " + weightSportsman / averageWeight + " дней");
 
         // Задача 8
         System.out.println("Задача 8");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        double mashaMonthNew = masha * 1.1;
+        int mashaYearOld = masha * 12;
+        double mashaYearNew = mashaMonthNew * 12;
+        double masha1 = mashaYearNew - mashaYearOld;
+        double denisMonthNew = denis * 1.1;
+        int denisYearOld = denis * 12;
+        double denisYearNew = denisMonthNew * 12;
+        double denis1 = denisYearNew - denisYearOld;
+        double kristinaMonthNew = kristina * 1.1;
+        int kristinaYearOld = kristina * 12;
+        double kristinaYearNew = kristinaMonthNew * 12;
+        double kristina1 = kristinaYearNew - kristinaYearOld;
+        System.out.println("Маша теперь получает " + mashaMonthNew + " рублей. Годовой доход вырос на " + masha1 + " рублей");
+        System.out.println("Денис теперь получает " + denisMonthNew + " рублей. Годовой доход вырос на " + denis1 + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaMonthNew + " рублей. Годовой доход вырос на " + kristina1 + " рублей");
 
     }
 
