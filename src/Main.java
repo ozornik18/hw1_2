@@ -57,12 +57,18 @@ public class Main {
         int totalClass = paint / (white + brown);
         System.out.println("В школе, где " + totalClass + " классов, нужно " + totalClass * white + " банок белой краски и " + totalClass * brown + " банок коричневой краски");
 
-
         // Задача 6
         System.out.println("Задача 6");
+        int banana = 5 * 80;
+        int milk = 2 * 105;
+        int iceCream = 2 * 100;
+        int egg = 4 * 70;
+        int totalWeight = banana + milk + iceCream + egg;
+        System.out.println("Вес спорт-завтрака " + totalWeight + " грамм, или " + totalWeight * .001 + " кг.");
 
         // Задача 7
         System.out.println("Задача 7");
+
 
         // Задача 8
         System.out.println("Задача 8");
